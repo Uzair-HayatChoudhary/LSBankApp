@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5t-Hj-QLD">
+                                <rect key="frame" x="149" y="348" width="116" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="116" id="T6T-QV-sOc"/>
+                                    <constraint firstAttribute="height" constant="26" id="lRu-G6-6gT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dollarsign.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="W34-yp-LW1">
+                                <rect key="frame" x="154.5" y="398.5" width="105" height="99"/>
+                                <color key="tintColor" systemColor="systemGroupedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="LCC-7S-Iss"/>
+                                    <constraint firstAttribute="width" constant="105" id="fB5-gn-ud1"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LSBank Montreal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vhc-aT-1Gv">
+                                <rect key="frame" x="104" y="521" width="206" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="8HM-8A-w3d"/>
+                                    <constraint firstAttribute="width" constant="206" id="E5f-z7-Hg2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVk-S9-cF4">
+                                <rect key="frame" x="28.5" y="690" width="357" height="172"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="172" id="HR9-gE-LWk"/>
+                                    <constraint firstAttribute="width" constant="357" id="kEN-8v-pcl"/>
+                                </constraints>
+                                <string key="text">Disclaimer: This application was developed as a project for IOS Mobile Application Developer course during fall 2021 with exclusively academic purpose and no intention to be used commercially.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" systemColor="systemGray5Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.53797185420000004" green="0.61768633129999995" blue="0.73500031229999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="c5t-Hj-QLD" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="7fv-a0-Ib7"/>
+                            <constraint firstItem="LVk-S9-cF4" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="9kO-xq-dIw"/>
+                            <constraint firstItem="W34-yp-LW1" firstAttribute="top" secondItem="c5t-Hj-QLD" secondAttribute="bottom" constant="24" id="CaZ-UH-IgU"/>
+                            <constraint firstItem="vhc-aT-1Gv" firstAttribute="top" secondItem="W34-yp-LW1" secondAttribute="bottom" constant="23" id="F07-oc-jUO"/>
+                            <constraint firstItem="W34-yp-LW1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Q7u-y0-d3o"/>
+                            <constraint firstItem="vhc-aT-1Gv" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="VBE-E1-A5I"/>
+                            <constraint firstItem="W34-yp-LW1" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Wye-Cz-4r3"/>
+                            <constraint firstItem="LVk-S9-cF4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jaF-uB-BYe"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dollarsign.circle" catalog="system" width="128" height="121"/>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

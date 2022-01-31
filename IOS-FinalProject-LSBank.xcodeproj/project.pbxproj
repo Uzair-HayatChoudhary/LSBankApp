@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D87A23F275018A400351426 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D87A23D275018A400351426 /* TransactionTableViewCell.swift */; };
+		5D87A240275018A400351426 /* TransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D87A23E275018A400351426 /* TransactionTableViewCell.xib */; };
+		BF71B96B2727AF2D001AA336 /* UIViewGestureScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71B96A2727AF2D001AA336 /* UIViewGestureScroll.swift */; };
+		BF740F6F2747F87B002B1B99 /* TransactionsTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF740F6E2747F87B002B1B99 /* TransactionsTransfer.swift */; };
+		BF740F74274A8FED002B1B99 /* TransactionsStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF740F73274A8FED002B1B99 /* TransactionsStatement.swift */; };
+		BF9847802736DA0400B41148 /* NewPayeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF98477F2736DA0400B41148 /* NewPayeeViewController.swift */; };
+		BF9847832736E25100B41148 /* UIViewController_setAsBottomSheetDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9847822736E25100B41148 /* UIViewController_setAsBottomSheetDialog.swift */; };
+		BF998E4B2746EF3E00FF305E /* SendMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF998E4A2746EF3E00FF305E /* SendMoneyViewController.swift */; };
+		BFA5F78D27416F680041378A /* Bundle_appVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA5F78C27416F680041378A /* Bundle_appVersion.swift */; };
+		BFAA289127415DE100FE3D3A /* Payee.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAA289027415DE100FE3D3A /* Payee.swift */; };
+		BFAA289627415EC600FE3D3A /* CodeDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAA289527415EC600FE3D3A /* CodeDataProvider.swift */; };
+		BFAA28A027415F8400FE3D3A /* Payee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAA289E27415F8400FE3D3A /* Payee+CoreDataClass.swift */; };
+		BFAA28A127415F8400FE3D3A /* Payee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAA289F27415F8400FE3D3A /* Payee+CoreDataProperties.swift */; };
+		BFC37BF52741BB5400A60B10 /* PayeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC37BF42741BB5400A60B10 /* PayeesViewController.swift */; };
+		BFC37BF92741BF4D00A60B10 /* PayeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC37BF82741BF4D00A60B10 /* PayeeTableViewCell.swift */; };
+		BFE87FD5274765A4001A9F3D /* Double_formatAsCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE87FD4274765A4001A9F3D /* Double_formatAsCurrency.swift */; };
+		FB4C6A22271F9EDD00F05E37 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4C6A21271F9EDD00F05E37 /* MainViewController.swift */; };
+		FB7545702735BB2500FBECB4 /* UIView_setLayerCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75456F2735BB2500FBECB4 /* UIView_setLayerCornerRadius.swift */; };
+		FB7545732735BC6800FBECB4 /* myAppDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7545722735BC6800FBECB4 /* myAppDefaults.swift */; };
+		FB75457D2735C0EA00FBECB4 /* UIView_enableTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75457C2735C0EA00FBECB4 /* UIView_enableTapGestureRecognizer.swift */; };
+		FB7545802735C5FE00FBECB4 /* UIView_setLayerRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75457F2735C5FE00FBECB4 /* UIView_setLayerRound.swift */; };
+		FB75A3582724AAAB00C79B85 /* KeyboardLayoutAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75A3572724AAAB00C79B85 /* KeyboardLayoutAdapter.swift */; };
+		FB75A35B2724B04700C79B85 /* AccountActivationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75A35A2724B04700C79B85 /* AccountActivationViewController.swift */; };
+		FB833275271A4CE6001D3086 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB833274271A4CE6001D3086 /* AppDelegate.swift */; };
+		FB833277271A4CE6001D3086 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB833276271A4CE6001D3086 /* SceneDelegate.swift */; };
+		FB833279271A4CE6001D3086 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB833278271A4CE6001D3086 /* ViewController.swift */; };
+		FB83327C271A4CE6001D3086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB83327A271A4CE6001D3086 /* Main.storyboard */; };
+		FB83327F271A4CE6001D3086 /* IOS_FinalProject_LSBank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB83327D271A4CE6001D3086 /* IOS_FinalProject_LSBank.xcdatamodeld */; };
+		FB833281271A4CE6001D3086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB833280271A4CE6001D3086 /* Assets.xcassets */; };
+		FB833284271A4CE6001D3086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB833282271A4CE6001D3086 /* LaunchScreen.storyboard */; };
+		FB83328E271A4D8A001D3086 /* LSBankAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB83328D271A4D8A001D3086 /* LSBankAPI.swift */; };
+		FB833292271A4DF8001D3086 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB833291271A4DF8001D3086 /* Account.swift */; };
+		FB8EAA6B2723A1E000A2BCC4 /* enumSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8EAA6A2723A1E000A2BCC4 /* enumSegue.swift */; };
+		FB8ED523273B5DB7000D59A9 /* String_isValidEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8ED522273B5DB7000D59A9 /* String_isValidEmail.swift */; };
+		FBAAA46D27239ADD00D6B677 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAAA46C27239ADD00D6B677 /* Toast.swift */; };
+		FBE272702720ED45008746B9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2726F2720ED45008746B9 /* LoginViewController.swift */; };
+		FBE272732720F60E008746B9 /* OpenAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE272722720F60E008746B9 /* OpenAccountViewController.swift */; };
+		FBF68E71273C1E4D009BB426 /* Dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF68E70273C1E4D009BB426 /* Dialog.swift */; };
+		FBF7164C271F61B50017724C /* AccountsAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF7164B271F61B50017724C /* AccountsAuth.swift */; };
+		FBF71651271F67A10017724C /* AccountsCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF71650271F67A10017724C /* AccountsCreate.swift */; };
+		FBF71654271F69550017724C /* AccountsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF71653271F69550017724C /* AccountsInfo.swift */; };
+		FBF71657271F6A610017724C /* AccountsBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF71656271F6A610017724C /* AccountsBalance.swift */; };
+		FBF7165A271F6B3A0017724C /* AccountsAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF71659271F6B3A0017724C /* AccountsAll.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D87A23D275018A400351426 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		5D87A23E275018A400351426 /* TransactionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionTableViewCell.xib; sourceTree = "<group>"; };
+		BF71B96A2727AF2D001AA336 /* UIViewGestureScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewGestureScroll.swift; sourceTree = "<group>"; };
+		BF740F6E2747F87B002B1B99 /* TransactionsTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsTransfer.swift; sourceTree = "<group>"; };
+		BF740F73274A8FED002B1B99 /* TransactionsStatement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsStatement.swift; sourceTree = "<group>"; };
+		BF98477F2736DA0400B41148 /* NewPayeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPayeeViewController.swift; sourceTree = "<group>"; };
+		BF9847822736E25100B41148 /* UIViewController_setAsBottomSheetDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController_setAsBottomSheetDialog.swift; sourceTree = "<group>"; };
+		BF998E4A2746EF3E00FF305E /* SendMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyViewController.swift; sourceTree = "<group>"; };
+		BFA5F78C27416F680041378A /* Bundle_appVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle_appVersion.swift; sourceTree = "<group>"; };
+		BFAA289027415DE100FE3D3A /* Payee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payee.swift; sourceTree = "<group>"; };
+		BFAA289527415EC600FE3D3A /* CodeDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeDataProvider.swift; sourceTree = "<group>"; };
+		BFAA289E27415F8400FE3D3A /* Payee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Payee+CoreDataClass.swift"; path = "../../../Payee+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BFAA289F27415F8400FE3D3A /* Payee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Payee+CoreDataProperties.swift"; path = "../../../Payee+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BFC37BF42741BB5400A60B10 /* PayeesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayeesViewController.swift; sourceTree = "<group>"; };
+		BFC37BF82741BF4D00A60B10 /* PayeeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayeeTableViewCell.swift; sourceTree = "<group>"; };
+		BFE87FD4274765A4001A9F3D /* Double_formatAsCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double_formatAsCurrency.swift; sourceTree = "<group>"; };
+		FB4C6A21271F9EDD00F05E37 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FB75456F2735BB2500FBECB4 /* UIView_setLayerCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_setLayerCornerRadius.swift; sourceTree = "<group>"; };
+		FB7545722735BC6800FBECB4 /* myAppDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAppDefaults.swift; sourceTree = "<group>"; };
+		FB75457C2735C0EA00FBECB4 /* UIView_enableTapGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_enableTapGestureRecognizer.swift; sourceTree = "<group>"; };
+		FB75457F2735C5FE00FBECB4 /* UIView_setLayerRound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_setLayerRound.swift; sourceTree = "<group>"; };
+		FB75A3572724AAAB00C79B85 /* KeyboardLayoutAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutAdapter.swift; sourceTree = "<group>"; };
+		FB75A35A2724B04700C79B85 /* AccountActivationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountActivationViewController.swift; sourceTree = "<group>"; };
+		FB833271271A4CE6001D3086 /* IOS-FinalProject-LSBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-FinalProject-LSBank.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB833274271A4CE6001D3086 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB833276271A4CE6001D3086 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB833278271A4CE6001D3086 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB83327B271A4CE6001D3086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB83327E271A4CE6001D3086 /* IOS_FinalProject_LSBank.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IOS_FinalProject_LSBank.xcdatamodel; sourceTree = "<group>"; };
+		FB833280271A4CE6001D3086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB833283271A4CE6001D3086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB833285271A4CE6001D3086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB83328D271A4D8A001D3086 /* LSBankAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSBankAPI.swift; sourceTree = "<group>"; };
+		FB833291271A4DF8001D3086 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		FB8EAA6A2723A1E000A2BCC4 /* enumSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enumSegue.swift; sourceTree = "<group>"; };
+		FB8ED522273B5DB7000D59A9 /* String_isValidEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_isValidEmail.swift; sourceTree = "<group>"; };
+		FBAAA46C27239ADD00D6B677 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		FBE2726F2720ED45008746B9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FBE272722720F60E008746B9 /* OpenAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAccountViewController.swift; sourceTree = "<group>"; };
+		FBF68E70273C1E4D009BB426 /* Dialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog.swift; sourceTree = "<group>"; };
+		FBF7164B271F61B50017724C /* AccountsAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsAuth.swift; sourceTree = "<group>"; };
+		FBF71650271F67A10017724C /* AccountsCreate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsCreate.swift; sourceTree = "<group>"; };
+		FBF71653271F69550017724C /* AccountsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsInfo.swift; sourceTree = "<group>"; };
+		FBF71656271F6A610017724C /* AccountsBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsBalance.swift; sourceTree = "<group>"; };
+		FBF71659271F6B3A0017724C /* AccountsAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsAll.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB83326E271A4CE6001D3086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF42ED6F2730CAEA002582E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFC37BF72741BF1100A60B10 /* TableViewCell */,
+				FB83327A271A4CE6001D3086 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFAA288F27415DB600FE3D3A /* Codegen */ = {
+			isa = PBXGroup;
+			children = (
+				BFAA289E27415F8400FE3D3A /* Payee+CoreDataClass.swift */,
+				BFAA289F27415F8400FE3D3A /* Payee+CoreDataProperties.swift */,
+			);
+			path = Codegen;
+			sourceTree = "<group>";
+		};
+		BFAA28A4274160F900FE3D3A /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				BFAA289527415EC600FE3D3A /* CodeDataProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		BFC37BF72741BF1100A60B10 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				BFC37BF82741BF4D00A60B10 /* PayeeTableViewCell.swift */,
+				5D87A23D275018A400351426 /* TransactionTableViewCell.swift */,
+				5D87A23E275018A400351426 /* TransactionTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		FB4C6A20271F9ECC00F05E37 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB833278271A4CE6001D3086 /* ViewController.swift */,
+				FB4C6A21271F9EDD00F05E37 /* MainViewController.swift */,
+				FBE2726F2720ED45008746B9 /* LoginViewController.swift */,
+				FBE272722720F60E008746B9 /* OpenAccountViewController.swift */,
+				FB75A35A2724B04700C79B85 /* AccountActivationViewController.swift */,
+				BF98477F2736DA0400B41148 /* NewPayeeViewController.swift */,
+				BFC37BF42741BB5400A60B10 /* PayeesViewController.swift */,
+				BF998E4A2746EF3E00FF305E /* SendMoneyViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FB75457A2735C09F00FBECB4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FB75456F2735BB2500FBECB4 /* UIView_setLayerCornerRadius.swift */,
+				FB75457C2735C0EA00FBECB4 /* UIView_enableTapGestureRecognizer.swift */,
+				FB75457F2735C5FE00FBECB4 /* UIView_setLayerRound.swift */,
+				BF9847822736E25100B41148 /* UIViewController_setAsBottomSheetDialog.swift */,
+				FB8ED522273B5DB7000D59A9 /* String_isValidEmail.swift */,
+				BFA5F78C27416F680041378A /* Bundle_appVersion.swift */,
+				BFE87FD4274765A4001A9F3D /* Double_formatAsCurrency.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FB833268271A4CE6001D3086 = {
+			isa = PBXGroup;
+			children = (
+				FB833273271A4CE6001D3086 /* IOS-FinalProject-LSBank */,
+				FB833272271A4CE6001D3086 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB833272271A4CE6001D3086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB833271271A4CE6001D3086 /* IOS-FinalProject-LSBank.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB833273271A4CE6001D3086 /* IOS-FinalProject-LSBank */ = {
+			isa = PBXGroup;
+			children = (
+				FBAAA46F27239AE100D6B677 /* Source */,
+				FB4C6A20271F9ECC00F05E37 /* Controller */,
+				FB833290271A4DE6001D3086 /* Model */,
+				FB83328C271A4D73001D3086 /* Service */,
+				BF42ED6F2730CAEA002582E5 /* View */,
+				FB833274271A4CE6001D3086 /* AppDelegate.swift */,
+				FB833276271A4CE6001D3086 /* SceneDelegate.swift */,
+				FB833280271A4CE6001D3086 /* Assets.xcassets */,
+				FB833282271A4CE6001D3086 /* LaunchScreen.storyboard */,
+				FB833285271A4CE6001D3086 /* Info.plist */,
+				FB83327D271A4CE6001D3086 /* IOS_FinalProject_LSBank.xcdatamodeld */,
+			);
+			path = "IOS-FinalProject-LSBank";
+			sourceTree = "<group>";
+		};
+		FB83328C271A4D73001D3086 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FBF7164E271F67560017724C /* Response */,
+				FB83328D271A4D8A001D3086 /* LSBankAPI.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FB833290271A4DE6001D3086 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFAA28A4274160F900FE3D3A /* Provider */,
+				BFAA288F27415DB600FE3D3A /* Codegen */,
+				FB833291271A4DF8001D3086 /* Account.swift */,
+				BFAA289027415DE100FE3D3A /* Payee.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FBAAA46F27239AE100D6B677 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FB75457A2735C09F00FBECB4 /* Extension */,
+				FBAAA46C27239ADD00D6B677 /* Toast.swift */,
+				FBF68E70273C1E4D009BB426 /* Dialog.swift */,
+				FB7545722735BC6800FBECB4 /* myAppDefaults.swift */,
+				FB8EAA6A2723A1E000A2BCC4 /* enumSegue.swift */,
+				FB75A3572724AAAB00C79B85 /* KeyboardLayoutAdapter.swift */,
+				BF71B96A2727AF2D001AA336 /* UIViewGestureScroll.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		FBF7164E271F67560017724C /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				FBF7164B271F61B50017724C /* AccountsAuth.swift */,
+				FBF71650271F67A10017724C /* AccountsCreate.swift */,
+				FBF71653271F69550017724C /* AccountsInfo.swift */,
+				FBF71656271F6A610017724C /* AccountsBalance.swift */,
+				FBF71659271F6B3A0017724C /* AccountsAll.swift */,
+				BF740F6E2747F87B002B1B99 /* TransactionsTransfer.swift */,
+				BF740F73274A8FED002B1B99 /* TransactionsStatement.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB833270271A4CE6001D3086 /* IOS-FinalProject-LSBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB833288271A4CE6001D3086 /* Build configuration list for PBXNativeTarget "IOS-FinalProject-LSBank" */;
+			buildPhases = (
+				FB83326D271A4CE6001D3086 /* Sources */,
+				FB83326E271A4CE6001D3086 /* Frameworks */,
+				FB83326F271A4CE6001D3086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IOS-FinalProject-LSBank";
+			productName = "IOS-FinalProject-LSBank";
+			productReference = FB833271271A4CE6001D3086 /* IOS-FinalProject-LSBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB833269271A4CE6001D3086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					FB833270271A4CE6001D3086 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = FB83326C271A4CE6001D3086 /* Build configuration list for PBXProject "IOS-FinalProject-LSBank" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB833268271A4CE6001D3086;
+			productRefGroup = FB833272271A4CE6001D3086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB833270271A4CE6001D3086 /* IOS-FinalProject-LSBank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB83326F271A4CE6001D3086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB833284271A4CE6001D3086 /* LaunchScreen.storyboard in Resources */,
+				FB833281271A4CE6001D3086 /* Assets.xcassets in Resources */,
+				5D87A240275018A400351426 /* TransactionTableViewCell.xib in Resources */,
+				FB83327C271A4CE6001D3086 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB83326D271A4CE6001D3086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAA28A027415F8400FE3D3A /* Payee+CoreDataClass.swift in Sources */,
+				FB833279271A4CE6001D3086 /* ViewController.swift in Sources */,
+				FBF71654271F69550017724C /* AccountsInfo.swift in Sources */,
+				FB83327F271A4CE6001D3086 /* IOS_FinalProject_LSBank.xcdatamodeld in Sources */,
+				FB4C6A22271F9EDD00F05E37 /* MainViewController.swift in Sources */,
+				FB833275271A4CE6001D3086 /* AppDelegate.swift in Sources */,
+				FBF7165A271F6B3A0017724C /* AccountsAll.swift in Sources */,
+				FB75A3582724AAAB00C79B85 /* KeyboardLayoutAdapter.swift in Sources */,
+				FBF71651271F67A10017724C /* AccountsCreate.swift in Sources */,
+				FBAAA46D27239ADD00D6B677 /* Toast.swift in Sources */,
+				FB7545732735BC6800FBECB4 /* myAppDefaults.swift in Sources */,
+				FB8EAA6B2723A1E000A2BCC4 /* enumSegue.swift in Sources */,
+				FB75457D2735C0EA00FBECB4 /* UIView_enableTapGestureRecognizer.swift in Sources */,
+				BF998E4B2746EF3E00FF305E /* SendMoneyViewController.swift in Sources */,
+				BF740F74274A8FED002B1B99 /* TransactionsStatement.swift in Sources */,
+				FBF68E71273C1E4D009BB426 /* Dialog.swift in Sources */,
+				BFC37BF92741BF4D00A60B10 /* PayeeTableViewCell.swift in Sources */,
+				BF9847802736DA0400B41148 /* NewPayeeViewController.swift in Sources */,
+				BFAA289127415DE100FE3D3A /* Payee.swift in Sources */,
+				5D87A23F275018A400351426 /* TransactionTableViewCell.swift in Sources */,
+				BF9847832736E25100B41148 /* UIViewController_setAsBottomSheetDialog.swift in Sources */,
+				BF740F6F2747F87B002B1B99 /* TransactionsTransfer.swift in Sources */,
+				BFA5F78D27416F680041378A /* Bundle_appVersion.swift in Sources */,
+				BFAA289627415EC600FE3D3A /* CodeDataProvider.swift in Sources */,
+				FB7545702735BB2500FBECB4 /* UIView_setLayerCornerRadius.swift in Sources */,
+				FB83328E271A4D8A001D3086 /* LSBankAPI.swift in Sources */,
+				FBF71657271F6A610017724C /* AccountsBalance.swift in Sources */,
+				FB833277271A4CE6001D3086 /* SceneDelegate.swift in Sources */,
+				BFAA28A127415F8400FE3D3A /* Payee+CoreDataProperties.swift in Sources */,
+				BF71B96B2727AF2D001AA336 /* UIViewGestureScroll.swift in Sources */,
+				FB833292271A4DF8001D3086 /* Account.swift in Sources */,
+				FBE272702720ED45008746B9 /* LoginViewController.swift in Sources */,
+				FB7545802735C5FE00FBECB4 /* UIView_setLayerRound.swift in Sources */,
+				BFE87FD5274765A4001A9F3D /* Double_formatAsCurrency.swift in Sources */,
+				FBE272732720F60E008746B9 /* OpenAccountViewController.swift in Sources */,
+				FB8ED523273B5DB7000D59A9 /* String_isValidEmail.swift in Sources */,
+				BFC37BF52741BB5400A60B10 /* PayeesViewController.swift in Sources */,
+				FB75A35B2724B04700C79B85 /* AccountActivationViewController.swift in Sources */,
+				FBF7164C271F61B50017724C /* AccountsAuth.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB83327A271A4CE6001D3086 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB83327B271A4CE6001D3086 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB833282271A4CE6001D3086 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB833283271A4CE6001D3086 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB833286271A4CE6001D3086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB833287271A4CE6001D3086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB833289271A4CE6001D3086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 5Y6MJE533C;
+				INFOPLIST_FILE = "IOS-FinalProject-LSBank/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "DRBC.IOS-FinalProject-LSBank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB83328A271A4CE6001D3086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 5Y6MJE533C;
+				INFOPLIST_FILE = "IOS-FinalProject-LSBank/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "DRBC.IOS-FinalProject-LSBank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB83326C271A4CE6001D3086 /* Build configuration list for PBXProject "IOS-FinalProject-LSBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB833286271A4CE6001D3086 /* Debug */,
+				FB833287271A4CE6001D3086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB833288271A4CE6001D3086 /* Build configuration list for PBXNativeTarget "IOS-FinalProject-LSBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB833289271A4CE6001D3086 /* Debug */,
+				FB83328A271A4CE6001D3086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB83327D271A4CE6001D3086 /* IOS_FinalProject_LSBank.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB83327E271A4CE6001D3086 /* IOS_FinalProject_LSBank.xcdatamodel */,
+			);
+			currentVersion = FB83327E271A4CE6001D3086 /* IOS_FinalProject_LSBank.xcdatamodel */;
+			path = IOS_FinalProject_LSBank.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB833269271A4CE6001D3086 /* Project object */;
+}
